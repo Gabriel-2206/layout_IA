@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap');
 
 :root {
-    --background: #fafafa;
+    --background: #fbfbfb;
     --azul_esverdiado: #2ccdb5;
     --amarelo: #ffdd00;
     --azul_escuro: #4281ff;
@@ -142,7 +142,7 @@
     width: 90%;
     margin: auto;
     margin-bottom: 40px;
-    border-top: 5px solid var(--azul_esverdiado);
+    border-top: 5px solid var(--azul_escuro);
     border-radius: 5px;
 
     background-color: white;
