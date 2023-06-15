@@ -69,6 +69,14 @@
         margin-left: 20px;
     }
 
+    .conteudo-principal:hover {
+        height: 240px;
+        width: 32%;
+
+        transition: width .7s, height .7s;
+        transition-timing-function: ease;
+    }
+
     .conteudo-secundario {
         width: 32%;
     }
@@ -78,9 +86,25 @@
         height: 220px;
     }
 
+    .conteudo-secundario-karma:hover {
+        height: 240px;
+        width: 101%;
+
+        transition: width .7s, height .7s;
+        transition-timing-function: ease;
+    }
+
     .conteudo-secundario-team {
         width: 100%;
         height: 220px;
+    }
+
+    .conteudo-secundario-team:hover {
+        height: 240px;
+        width: 101%;
+
+        transition: width .7s, height .7s;
+        transition-timing-function: ease;
     }
 
     .conteudo-terciario {
@@ -88,5 +112,13 @@
         width: 31%;
         margin: 0;
         margin-right: 20px;
+    }
+
+    .conteudo-terciario:hover {
+        height: 240px;
+        width: 32%;
+
+        transition: width .7s, height .7s;
+        transition-timing-function: ease;
     }
 }
